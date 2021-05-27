@@ -5,13 +5,13 @@
 ### Application links
 * Frontend:
   * Production:
-    * [QuantMark](http://quantmark.herokuapp.com/)
+    * Coming soon
   * Development:
-    * [Staging of QuantMark](https://ohtup-staging.cs.helsinki.fi/quantmark/)
-    * [Code on Github](https://github.com/ohtu2021-kvantti/WebMark)
+    * Staging: Coming soon
+    * [Code on Github](https://github.com/quantum-ohtu/WebMark)
     
 ### Documentation
-* [Wiki](https://github.com/ohtu2021-kvantti/QuantMark/wiki)
+* [Wiki](https://github.com/quantum-ohtu/QuantMark/wiki)
 
 ### Practices
 

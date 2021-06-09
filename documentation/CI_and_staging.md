@@ -27,7 +27,7 @@ location /qleader {
 
 * The staging server is very close to the development environment when it should reflect the production environment.
 * The staging server does not serve static files at all. So far this has not been an issue but this might change in the future.
-* The staging server runs in a path `/quantmark` so hard-coded links between pages will not work. For example, this is **NOT** going to work:
+* The staging server runs in a path `/qleader` so hard-coded links between pages will not work. For example, this is **NOT** going to work:
     ```python
     return redirect('/newMolecule/')  # WILL NOT WORK ON STAGING!
     ```

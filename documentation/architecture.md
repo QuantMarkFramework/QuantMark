@@ -14,17 +14,12 @@ There are a lot of potentially unfamiliar terminology used in this document so i
 
 ## Environment
 The full environment is set up using Docker Compose and consists of two Docker containers:
-* **Web** contains Django web server (nicknamed WebMark2)
-* **DB** contains PostgreSQL database
+* **web** contains Django web server (nicknamed WebMark2)
+* **db** contains PostgreSQL database
 
 ## Web server
 
-The web server has been nicknamed WebMark. Folder `/webmark2` contains project settings and `/qleader` contains the actual application.
-Architecturally the web server consists of three parts: templates, views and models.
-
-  * **Templates** contain HTML documents with occasional inline Javascript. [Django templating language](https://docs.djangoproject.com/en/3.1/ref/templates/language/) is used to generate some of the HTML using the data provided by view layer.
-  * **Views** contain the logic used to populate the templates with correct data that are fetched using models.
-  * **Models** represent the database schema and are used to execute database operations.
+The web server has been nicknamed WebMark2. Folder `/webmark2` contains project settings and `/qleader` contains the actual application. WebMark2 uses Django REST framework. More about it's implementation is in [here](https://github.com/quantum-ohtu/WebMark2/blob/main/documentation/CreationNotes.md)
 
 ## Database
 

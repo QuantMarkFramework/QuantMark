@@ -17,7 +17,7 @@
 6. Create a file `qleader.subfolder.conf` to `/nginx/config/nginx/proxy-confs` with the following contents:
 ```nginx
 location /qleader {
-	proxy_pass http://quantmark-web:8000/;
+	proxy_pass http://qleader-web:8000/;
         proxy_set_header Host $host;
 }
 ```

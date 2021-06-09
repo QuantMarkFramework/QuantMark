@@ -19,7 +19,7 @@ The full environment is set up using Docker Compose and consists of two Docker c
 
 ## Web server
 
-The web server has been nicknamed WebMark2. Folder `/webmark2` contains project settings and `/qleader` contains the actual application. WebMark2 uses Django REST framework. More about it's implementation is in [here](https://github.com/quantum-ohtu/WebMark2/blob/main/documentation/CreationNotes.md)
+The web server has been nicknamed WebMark2. Folder `/webmark2` contains project settings and `/qleader` contains the actual application. WebMark2 uses Django REST framework. More about its implementation is in [here](https://github.com/quantum-ohtu/WebMark2/blob/main/documentation/CreationNotes.md)
 
 ## Database
 

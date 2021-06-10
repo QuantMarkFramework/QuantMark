@@ -1,11 +1,7 @@
 # QuantMark
 
-## Project links
+Welcome to the mother repository of the project. The project is about developing an _API for benchmarking quantum computing algorithms_.
 
-### Application links
-* Development:
-  * [Staging](https://ohtup-staging.cs.helsinki.fi/qleader/)
-  * [Code on Github](https://github.com/quantum-ohtu/WebMark2)
-    
-### Documentation
-* [Wiki](https://github.com/quantum-ohtu/QuantMark/wiki)
+__All the information__ such like documentation and links can be found from [Wiki](https://github.com/quantum-ohtu/QuantMark/wiki).
+
+See the application's current state at [staging](https://ohtup-staging.cs.helsinki.fi/qleader/). 

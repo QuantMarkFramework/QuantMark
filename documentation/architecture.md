@@ -25,4 +25,8 @@ The web server has been nicknamed WebMark2. Folder `/webmark2` contains project 
 
 The database uses PostgreSQL and the schema is shown in the following diagram. User table has been automatically created by Django and most of the fields are not used. The relevant fields are username and password.
 
+Here is the WebMark2's database diagram.
+
+![WebMark's dbdiagram](https://github.com/quantum-ohtu/WebMark2/blob/main/documentation/dbdiagram.png)
+
 

@@ -1,11 +1,23 @@
 # Testing
 
-Test are conducted with Python standard library module unittest. 
+Test are conducted with Pytest and Pytest-Django. 
 
 ### Unit tests:
-- `$ python manage.py test` (runs unit tests)
-- `$ python manage.py test -k <keyword>` (runs tests with matching pattern or substring)
 
+*Note: at the writing of this subheading the unit tests comprises of a single file, 'qleader/tests/test_helpers.py', and are very bare bones. The instructions given wil lprobably change as the testing and test-writing workflows are developed further.*
+
+Required packages for unit testing are listed in the document 'requirements-testing.txt'. They can be installed separately using
+```
+pip install -r requirements-testing.txt
+```
+but they are also installed when building the project (use sudo, if needed):
+```
+docker-compose build
+```
+After the required packages are installed, the unit tests can be run with
+```
+docker-compose run qleader-web py.test
+```
 
 ## What was tested
 

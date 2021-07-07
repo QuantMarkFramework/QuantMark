@@ -27,6 +27,6 @@ The database uses PostgreSQL and the schema is shown in the following diagram. U
 
 Here is the WebMark2's database diagram.
 
-![WebMark's dbdiagram](https://github.com/quantum-ohtu/WebMark2/blob/main/documentation/dbdiagram.png)
+![WebMark's dbdiagram](https://github.com/quantum-ohtu/QuantMark/blob/main/documentation/dbdiagram.png)
 
 

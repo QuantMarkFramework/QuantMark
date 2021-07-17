@@ -1,3 +1,13 @@
+// The current WebMark2_uml.png is generated with graph_models, a Django extension using the following command:
+// python manage.py graph_models -a --disable-abstract-fields -I Result,Run* -o WebMark2_uml.png
+// 
+// Instructions on how to install and use graph_models can be found behind the following links:
+// https://simpleit.rocks/python/django/generate-uml-class-diagrams-from-django-models/
+// https://django-extensions.readthedocs.io/en/latest/graph_models.html
+
+// Below the line are the instructions on how to create an UML diagram on yuml.me, which was used before the current (as of 17.07.2021) way of using the Graph_models -extension for Django.
+
+--------
 
 // Paste to -> https://yuml.me/diagram/scruffy/class/draw 
 

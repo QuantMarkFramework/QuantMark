@@ -1,40 +1,8 @@
-// The current WebMark2_uml.png is generated with graph_models, a Django extension using the following command:
-// python manage.py graph_models -a --disable-abstract-fields -I Result,Run* -o WebMark2_uml.png
-// 
-// Instructions on how to install and use graph_models can be found behind the following links:
-// https://simpleit.rocks/python/django/generate-uml-class-diagrams-from-django-models/
-// https://django-extensions.readthedocs.io/en/latest/graph_models.html
+The current WebMark2_uml.png is generated with graph_models, a Django extension using the following command:
+python manage.py graph_models -a --disable-abstract-fields -I Result,Run* -o WebMark2_uml.png
 
-// Below the line are the instructions on how to create an UML diagram on yuml.me, which was used before the current (as of 17.07.2021) way of using the Graph_models -extension for Django.
+Instructions on how to install and use graph_models can be found behind the following links:
+https://simpleit.rocks/python/django/generate-uml-class-diagrams-from-django-models/
+https://django-extensions.readthedocs.io/en/latest/graph_models.html
 
---------
-
-// Paste to -> https://yuml.me/diagram/scruffy/class/draw 
-
-
-[Result]1-*[Run]
-[Run]^[RunScipy]
-[Run]^[RunGradient]
-[RunGradient]^[RunGradientNesterov]
-[RunScipy]^[RunScipyNelderMead]
-[RunScipy]^[RunScipyBFGS]
-[RunScipy]^[RunScipyLBFGSB]
-[RunScipy]^[RunScipyCOBYLA]
-
-[Result|created: dateTime; optimizer: char; tqversion: text; basis_set: char; transformation: char; min_energy: float; min_energy_distance; min_delta: float; min_delta_distance; variance_from_fci: float]
-
-[Run|created: dateTime]
-
-[RunScipy; distance: float; energy: float; variables: text; energies: text; gradients: text; angles: text; energies_calls: text; gradients_calls: text; angles_calls: text; energy_evaluations: text; angles_evaluations: text; gradients_evaluations: text; fun: float; message: text; status: int; success: char; x: text; hamiltonian: text; ansatz: text; molecule: text]
-
-[RunGradient; distance: float; energy: float; variables: text; energies: text; gradients: text; angles: text; energies_calls: text; gradients_calls: text; angles_calls: text; hamiltonian: text; ansatz: text; molecule: text]
-
-[RunGradientNesterov; result: foreignKey; moments: text]
-
-[RunScipyNelderMead;result: foreignKey; hessians: text; final_simplex: text; nfev: int; nit: int]
-
-[RunScipyBFGS;result: foreignKey; jac: text; hess_inv: text; hessians: text; nfev: int; nit: int; njev: int]
-
-[RunScipyLBFGSB;result: foreignKey; jac: text; hess_inv: text; hessians: text; nfev: int; nit: int; njev: int]
-
-[RunScipyCOBYLA;result: foreignKey; hessians: text; nfev: int; maxcv: float]
+Below the line are the instructions on how to create an UML diagram on yuml.me, which was used before the current (as of 17.07.2021) way of using the Graph_models -extension for Django.

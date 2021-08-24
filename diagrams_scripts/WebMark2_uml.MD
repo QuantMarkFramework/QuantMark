@@ -6,5 +6,7 @@ The command above requires the next packages to be installed through pip: graphv
 You can filter the models drawn with the flag -I, for example `-I Result,Run*`.
 
 Instructions on how to install and use graph_models can be found behind the following links:
+
 https://simpleit.rocks/python/django/generate-uml-class-diagrams-from-django-models/
+
 https://django-extensions.readthedocs.io/en/latest/graph_models.html
